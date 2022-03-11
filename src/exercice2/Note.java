@@ -2,7 +2,7 @@ package exercice2;
 
 public class Note {
 	private String NomCours;
-	private double note;
+	double note;
 	public Note(String nomCours, double note) {
 		super();
 		NomCours = nomCours;
@@ -22,7 +22,7 @@ public class Note {
 	}
 	@Override
 	public String toString() {
-		return "Note [NomCours=" + NomCours + ", note=" + note + "]";
+		return "\n Cour: " + NomCours + ", note=" + note ;
 	}
 	
 	
